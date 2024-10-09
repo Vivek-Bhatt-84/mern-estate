@@ -15,10 +15,10 @@ mongoose
 
 const app = express();
 
-const PORT = "3000";
 
-app.listen(PORT, () => {
-  console.log(`Server Listening on port ${PORT} `);
+
+app.listen(3000, () => {
+  console.log(`Server Listening on port 3000 `);
 });
 
 app.use(express.json());
